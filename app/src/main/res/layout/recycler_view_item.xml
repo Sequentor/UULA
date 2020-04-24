@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp128"
+    android:padding="@dimen/dp16">
+
+    <RelativeLayout
+        android:id="@+id/preview_layout"
+        android:layout_width="@dimen/dp156"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dp16">
+
+        <ImageView
+            android:id="@+id/preview_layout_bg"
+            android:layout_width="@dimen/dp156"
+            android:layout_height="@dimen/dp128"
+            android:scaleType="center"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/preview_icon"
+            android:layout_width="@dimen/dp28"
+            android:layout_height="@dimen/dp28"
+            android:layout_above="@id/preview_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp16"
+            android:scaleType="center"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/preview_layout_checkbox"
+            android:layout_width="@dimen/dp24"
+            android:layout_height="@dimen/dp24"
+            android:layout_marginStart="@dimen/dp8"
+            android:layout_marginTop="@dimen/dp8"
+            android:scaleType="center"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/preview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp6"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp14" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/preview_layout"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp4"
+        android:paddingBottom="@dimen/dp4">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto_medium"
+            android:maxLines="2"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp18" />
+
+        <TextView
+            android:id="@+id/sub_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp8"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/colorSubTitleText"
+            android:textSize="@dimen/sp16" />
+
+    </LinearLayout>
+
+</RelativeLayout>

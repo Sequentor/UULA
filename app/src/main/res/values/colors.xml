@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Base colors  -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!--  UI colors  -->
+    <color name="colorMaterial">#384C63</color>
+    <color name="colorQuiz">#61384E</color>
+    <color name="colorSubTitle">#3A4959</color>
+    <color name="colorButton">#9042F7</color>
+    <color name="colorTopBorder">#191E24</color>
+    <color name="colorBackground">#1E2833</color>
+    <color name="loaderBackground">#222222</color>
+    <color name="colorProgressText">#525f6e</color>
+    <color name="colorSubTitleText">#525f6e</color>
+    <color name="colorBackgroundMainFragment">#1e2832</color>
+</resources>
